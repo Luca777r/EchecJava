@@ -1,0 +1,25 @@
+
+
+
+Réponse Luca Del Rosso :
+
+
+1. En premier lieu j'ai repris toute l'indentation du code pour y voir plus clair grâce aux raccourcies CMD+A et CMD+I;
+
+2. J'ai commenter la classe Reine pour l'implementer plus tard
+
+3. J'ai ensuite modifier le fichier Executeur.java pour faire en sorte de pouvoir compiler le code en rajoutant static et le type String.
+
+4. Update des appels des classes dans Echiquier.java pour qu'ils correspondent. Et nous avons ensuite l'affichage qui se fait comme il faut.
+
+5. Changement des couleurs des joueur et joueur ennemie 
+ 
+6. Modification du caractère spécial non pris en charge "é".
+
+7. Le problème d'input deux fois "normal" dans la console venait du main, qui initialisais deux fois game.
+
+8. J'ai implémenté la Reine qui est un mélange de classe fou et de la classe tour (J'ai pris une base de la classe fou en remplacant son constructeur par Reine et ensuite j'ai ajouté aux "for" du fou les "for" de la tour pour créer la puissance de la reine), elle s'affiche sur le plateau et peut bouger selon si il n'y a pas de pions allié qui l'a bloque.
+
+9. Demande du nom du joueur : j'ai utilisé le scanner qui était déjà déclaré et je l'ai implémenté dans le contructeur Game, il va demander aux deux joueurs leurs noms et ensuite les stocker dans des variables "w" et "x" que nous allons ensuite mettre en paramètres de "joueur", nous n'avons donc plus besoin des string en dur dans le main.  
+
+10. 
