@@ -22,4 +22,4 @@ Réponse Luca Del Rosso :
 
 9. Demande du nom du joueur : j'ai utilisé le scanner qui était déjà déclaré et je l'ai implémenté dans le contructeur Game, il va demander aux deux joueurs leurs noms et ensuite les stocker dans des variables "w" et "x" que nous allons ensuite mettre en paramètres de "joueur", nous n'avons donc plus besoin des string en dur dans le main.  
 
-10. 
+10. Ajout de la liste des joueurs
