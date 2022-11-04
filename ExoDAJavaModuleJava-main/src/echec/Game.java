@@ -30,6 +30,8 @@ public class Game {
 		w = entree.nextLine();
 		System.out.println("Entrez vote nom de joueur 2");
 		x = entree.nextLine();
+		
+		System.out.println("Liste des joueurs : \n- "+ w +"\n- "+ x +"\n");
 
 		echiquier = new Echiquier();
 		echiquier.initialisation();
